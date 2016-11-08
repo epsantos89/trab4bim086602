@@ -68,5 +68,6 @@
 		<nature>org.hibernate.eclipse.console.hibernateNature</nature>
 		<nature>com.jaspersoft.studio.babel.editor.rbeNature</nature>
 		<nature>org.jboss.tools.ws.jaxrs.nature</nature>
+		<nature>org.jboss.tools.jsf.jsfnature</nature>
 	</natures>
 </projectDescription>
