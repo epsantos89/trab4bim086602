@@ -22,7 +22,7 @@ import br.com.epsantos.usuario.controller.UsuarioController;
 import br.com.epsantos.uteis.Uteis;
 
 /*Classe é um bean gerenciado pelo CDI, ela é transformada em um bean gereciado a partir da anottation @Named
- * pertecente ao CDI.*/
+ * pertecente ao CDI. Utilizada para cadastrar uma pessoa*/
 @Named(value="cadastrarPessoaController")
 //Gerado a cada nova sessão, uma instancia por sesão, exemplo abrir um novo navegador @SessionScoped
 @RequestScoped
