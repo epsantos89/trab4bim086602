@@ -49,7 +49,7 @@ public class JPAFilter implements Filter {
 		/*Abre a transação*/
 		entityManager.getTransaction().begin();
 
-		/*Incia o faces servlet*/
+		/*Inicia o faces servlet*/
 		chain.doFilter(request, response);
 
 		try {
