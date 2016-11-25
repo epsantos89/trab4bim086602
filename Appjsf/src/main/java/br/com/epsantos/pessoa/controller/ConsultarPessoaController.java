@@ -44,14 +44,38 @@ public class ConsultarPessoaController implements Serializable {
 	}
 
 	/***
-	 * CARREGA AS PESSOAS NA INICIALIZAÇÃO
+	 * Carrega na tela as pessoas cadastradas na iniciliazação
 	 */
 	@PostConstruct
 	public void init(){
 
-		//RETORNAR AS PESSOAS CADASTRADAS
+		//Retorna as pessoas cadastradas
 		this.pessoas = pessoaRepository.GetPessoas();
 	}
 
+	/***
+	 * Carrega as informações de uma pessoa para realizar a edição
+	 * @param pessoaModel
+	 */
+	public void Editar(PessoaModel pessoaModel){
+
+		/*PEGA APENAS A PRIMEIRA LETRA DO SEXO PARA SETAR NO CAMPO(M OU F)*/
+		pessoaModel.setSexo(pessoaModel.getSexo().substring(0, 1));
+
+		this.pessoaModel = pessoaModel;
+
+	}
+
+	/***
+	 * Atualiza o registro alterado
+	 */
+	public void AlterarRegistro(){
+
+		this.pessoaRepository.AlterarRegistro(this.pessoaModel);
+
+
+		/*Recarrega os registros*/
+		this.init();
+	}
 
 }
