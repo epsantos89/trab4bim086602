@@ -6,7 +6,7 @@ import javax.faces.context.FacesContext;
 import javax.persistence.EntityManager;
 import javax.servlet.http.HttpServletRequest;
 
-
+//@author Elias Pereira
 /*Criado classe com metodo para recuperar o EntityManager criado no filter JPAFilter*/
 public class Uteis {
 

@@ -1,7 +1,7 @@
 package br.com.epsantos.model;
 
 import java.io.Serializable;
-
+//@author Elias Pereira
 /*Essa classe será utilizada pelos Managed Beans para receber os dados que são informados nas páginas*/
 public class UsuarioModel implements Serializable {
 

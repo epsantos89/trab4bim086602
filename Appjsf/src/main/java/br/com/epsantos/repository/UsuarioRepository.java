@@ -8,6 +8,7 @@ import br.com.epsantos.model.UsuarioModel;
 import br.com.epsantos.repository.entity.UsuarioEntity;
 import br.com.epsantos.uteis.Uteis;
 
+//@author Elias Pereira
 /*Classe irá conter os metodos de criação do query que será utilizada para localizar um usuário no banco de dados*/
 public class UsuarioRepository implements Serializable {
 

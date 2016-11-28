@@ -6,6 +6,7 @@ import java.time.LocalDateTime;
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
+//@author Elias Pereira
 /*Classe é um conversor para corrigirmos o problema de cadastro de data com LocalDateTime no JPA*/
 
 @Converter(autoApply = true)

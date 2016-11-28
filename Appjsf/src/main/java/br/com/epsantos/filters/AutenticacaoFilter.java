@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 
 import br.com.epsantos.model.UsuarioModel;
 
-
+//@author Elias Pereira
 /*Filter utilizado para realizar a validação para verificar se o usuário esta logado para realizar acesso
  * as paginas que se encontraram no folder sistema*/
 @WebFilter("/sistema/*")

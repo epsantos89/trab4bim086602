@@ -20,7 +20,7 @@ import br.com.epsantos.model.PessoaModel;
 import br.com.epsantos.repository.PessoaRepository;
 import br.com.epsantos.usuario.controller.UsuarioController;
 import br.com.epsantos.uteis.Uteis;
-
+//@author Elias Pereira
 /*Classe é um bean gerenciado pelo CDI, ela é transformada em um bean gereciado a partir da anottation @Named
  * pertecente ao CDI. Utilizada para cadastrar uma pessoa*/
 @Named(value="cadastrarPessoaController")

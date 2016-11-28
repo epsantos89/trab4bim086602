@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
-
+//@author Elias Pereira
 /*Essa classe será utilizada como um entity para persistir a tabela tb_usuario no banco de dados*/
 @Table(name="tb_usuario")
 @Entity

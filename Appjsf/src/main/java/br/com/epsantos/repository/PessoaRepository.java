@@ -16,6 +16,7 @@ import br.com.epsantos.repository.entity.PessoaEntity;
 import br.com.epsantos.repository.entity.UsuarioEntity;
 import br.com.epsantos.uteis.Uteis;
 
+//@author Elias Pereira
 /*Classe responsável por persistir a entidade PessoaEntity*/
 public class PessoaRepository {
 

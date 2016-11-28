@@ -15,7 +15,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 
 
-
+//@author Elias Pereira
 /***
  * Esse filter irá gerenciar o EntityManager que será utilizado para executar as
  * iterações com o bd. irá ser chamado quando realizado alguma requisição no faces servlet que por sua vez

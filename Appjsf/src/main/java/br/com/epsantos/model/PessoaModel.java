@@ -2,7 +2,7 @@ package br.com.epsantos.model;
 
 import java.time.LocalDateTime;
 
-
+//@author Elias Pereira
 /*Essa classe será utilizada pelos Managed Beans para receber os dados que são informados na página de cadastro*/
 public class PessoaModel {
 

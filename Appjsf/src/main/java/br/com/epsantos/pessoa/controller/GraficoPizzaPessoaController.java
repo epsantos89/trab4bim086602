@@ -11,6 +11,7 @@ import org.primefaces.model.chart.PieChartModel;
 
 import br.com.epsantos.repository.PessoaRepository;
 
+//@author Elias Pereira
 /*Classe é um bean gerenciado pelo CDI, ela é transformada em um bean gereciado a partir da anottation @Named
  * pertecente ao CDI.*/
 @Named(value="graficoPizzaPessoaController")

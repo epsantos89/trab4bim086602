@@ -11,6 +11,7 @@ import javax.faces.context.FacesContext;
 import javax.faces.convert.DateTimeConverter;
 import javax.faces.convert.FacesConverter;
 
+//@author Elias Pereira
 /*Classe utilizada para formatar a data de cadastro que é do tipo LocalDateTime*/
 
 @FacesConverter(value= LocalDateTimeConverter.ID)
